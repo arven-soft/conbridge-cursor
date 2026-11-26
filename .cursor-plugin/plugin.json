@@ -1,0 +1,14 @@
+{
+  "name": "conbridge",
+  "description": "Find known vulnerabilities on the computers, servers and CMS sites you own, and fix them from Cursor under the approval rules you set.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Arven Soft",
+    "email": "support@conbridge.app"
+  },
+  "homepage": "https://conbridge.app",
+  "repository": "https://github.com/arven-soft/conbridge-cursor",
+  "license": "MIT",
+  "keywords": ["security", "vulnerabilities", "remediation", "servers", "wordpress", "mcp"],
+  "logo": "assets/logo.svg"
+}
