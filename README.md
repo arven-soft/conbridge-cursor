@@ -29,6 +29,10 @@ The plugin contains no server code, credentials or tokens.
 
 To test this plugin locally, copy this repository to `~/.cursor/plugins/local/conbridge`, then run **Developer: Reload Window**.
 
+## Other MCP clients
+
+The same hosted server works in other MCP apps. For Cline, see [llms-install.md](llms-install.md). Setup guides for Claude, ChatGPT, Codex, VS Code and more are at [conbridge.app/integrations](https://conbridge.app/integrations).
+
 ## Configuration
 
 There is nothing to configure in the plugin. You choose the organization, scopes and tools on the ConBridge consent screen. You can change them later in the ConBridge Console under **AI Apps**.
