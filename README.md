@@ -15,6 +15,41 @@ This plugin adds two things to Cursor:
 
 The plugin contains no server code, credentials or tokens.
 
+## Quick install
+
+[![Add ConBridge MCP server to Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=conbridge&config=eyJ1cmwiOiJodHRwczovL21jcC5jb25icmlkZ2UuYXBwL21jcCJ9)
+
+Cursor shows the server before it installs it, then opens the ConBridge sign-in. No API key or header goes into any configuration: you approve the scopes on the ConBridge consent screen.
+
+Other apps:
+
+- **Visual Studio Code (GitHub Copilot):** [Add to Visual Studio Code](https://vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522conbridge%2522%252C%2522type%2522%253A%2522http%2522%252C%2522url%2522%253A%2522https%253A%252F%252Fmcp.conbridge.app%252Fmcp%2522%257D), or from a terminal:
+
+  ```sh
+  code --add-mcp '{"name":"conbridge","type":"http","url":"https://mcp.conbridge.app/mcp"}'
+  ```
+
+- **LM Studio** (0.3.17 or later): [Add to LM Studio](https://lmstudio.ai/install-mcp?name=conbridge&config=eyJ1cmwiOiJodHRwczovL21jcC5jb25icmlkZ2UuYXBwL21jcCJ9)
+- **Claude:** [Add to Claude](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=ConBridge&connectorUrl=https%3A%2F%2Fmcp.conbridge.app%2Fmcp) (opens the Add custom connector dialog with the address filled in)
+- **Claude Code:**
+
+  ```sh
+  claude mcp add --transport http conbridge https://mcp.conbridge.app/mcp
+  ```
+
+  Then open `/mcp` in a Claude Code session, choose ConBridge and finish the Authenticate step.
+
+- **Codex:**
+
+  ```sh
+  codex mcp add conbridge --url https://mcp.conbridge.app/mcp
+  codex mcp login conbridge
+  ```
+
+- **Cline:** see [llms-install.md](llms-install.md).
+
+Setup guides for every supported app: https://conbridge.app/integrations
+
 ## Requirements
 
 - A ConBridge account ([conbridge.app](https://conbridge.app)) with at least one computer, server or site connected.
